@@ -1,0 +1,5 @@
+1. Create demo file
+touch /home/demo.txt
+
+2. Set permission as requested
+chmod 764 /home/demo.txt
