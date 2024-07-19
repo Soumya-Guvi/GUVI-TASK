@@ -1,0 +1,7 @@
+nslookup guvi.in
+top
+free -h
+ping www.google.com
+ping www.facebook.com
+telnet guvi.com 9000
+
