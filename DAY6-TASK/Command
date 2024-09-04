@@ -1,0 +1,10 @@
+mkdir porject1
+cd project1
+touch script1.sh script2.sh
+echo "#!/bin/bash" >> script1.sh
+echo "#!/bin/bash" >> script2.sh
+git init
+git add .
+git commit -m "Initial commit with script files"
+git remote add origin https://github.com/your-username/MyNewProject.git
+git push -u origin master
