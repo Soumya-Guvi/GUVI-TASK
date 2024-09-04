@@ -1,0 +1,26 @@
+FOR LOOP:
+for i in file1.txt
+do
+    echo "value is $i"
+done
+--------
+for (( i=1; i<=1-; i++ ))
+do
+    echo "loop value $i"
+done
+=======================
+WHILE LOOP:
+a=1
+while [ $a -le 15 ]
+do
+    echo "Value: $a"
+    ((a++))
+done
+=======================
+UNTIL LOOP:
+a=0
+until [ $a -gt 10 ]
+do
+echo $a
+a=`expr $a + 1`
+done
